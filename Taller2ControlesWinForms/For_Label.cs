@@ -16,5 +16,22 @@ namespace Taller2ControlesWinForms
         {
             InitializeComponent();
         }
+
+        private void labelTexto_MouseHover(object sender, EventArgs e)
+        {
+            labelColor.BackColor = Color.Black;
+            labelColor.ForeColor = Color.Yellow;
+        }
+
+        private void labelTexto_MouseLeave(object sender, EventArgs e)
+        {
+            labelColor.BackColor = SystemColors.Control;
+            labelColor.ForeColor = Color.Black;
+        }
+
+        private void linkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

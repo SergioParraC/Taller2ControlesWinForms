@@ -7,5 +7,9 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
-
+  <ItemGroup>
+  <Compile Update="For_Principal.Designer.cs">
+    <DependentUpon>For_Principal.cs</DependentUpon>
+  </Compile>
+</ItemGroup>
 </Project>
